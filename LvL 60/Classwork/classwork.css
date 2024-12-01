@@ -1,0 +1,21 @@
+
+
+div{margin-left: 150px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px rgb(0, 0, 0);
+    background-color: greenyellow;
+    animation-name: colorful;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes colorful{
+    20% {background-color: blueviolet;left: 50px;}
+    25% {background-color: violet;down:50px;}
+    30% {background-color: pink;left: 50px;}
+    45% {background-color: red;up:50px}
+    50% {background-color: orange;right: 50px;}
+    55% {background-color: yellow;down:50px;}
+}

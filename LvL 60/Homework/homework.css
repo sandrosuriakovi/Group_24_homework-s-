@@ -16,7 +16,7 @@
         background-color: greenyellow;
         position: relative;
         animation-name: example;
-        animation-duration: loop;
+        animation-duration: 4s;
       }
       
       @keyframes example {

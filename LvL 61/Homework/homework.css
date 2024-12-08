@@ -1,0 +1,43 @@
+div{
+    position: relative;
+}
+.magic{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 253, 253);
+    border: 1px;
+    border-radius: 10px;
+    animation-duration: 4s;
+    text-align: center;
+
+}
+
+.magic:hover{
+    color: rgb(0, 0, 0);
+}
+
+.clickandrotate{
+    background-color: aqua;
+    position: relative;
+}
+.clickandrotate:hover{
+    transform: rotate(145deg);
+}
+
+
+.pictures img{
+    width: 50%;
+    height: 50%;
+    transition:all 0.5s;
+}
+.pictures img:hover{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+

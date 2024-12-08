@@ -1,0 +1,52 @@
+div{
+    position: absolute;
+}
+
+#top{
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: enter-top 1s forwards;
+}
+@keyframes enter-top{
+    to {
+        top: 50px;
+    }
+}
+
+#bottom {
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: enter-bottom 1s forwards;
+}
+@keyframes enter-bottom{
+    to {
+        bottom: 50px;
+    }
+}
+#left {
+    left: -100px;
+    top: 50%;
+    transform: translateX(-50%);
+    animation: enter-left 1s forwards;
+}
+@keyframes enter-left{
+    to {
+        left: 50px;
+    }
+}
+
+#right{
+    right: -100px;
+    top: 50%;
+    transform:translateX(-50%) ;
+    animation: enter-right 1s forwards;
+    
+}
+
+@keyframes enter-right{
+    to{
+        right: 50px;
+    }
+}

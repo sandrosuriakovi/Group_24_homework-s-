@@ -19,20 +19,24 @@
 #    if number == 9:
 #        return "Nine"
 #    return number
-x = "sandro"
-
-for i in x:
-    if int(x) <= 5:
-        print(0)
-    print(i)
 
 
 
+#def fake_bin(x):
+#    num = ""
+#    for i in x:
+#        if int(i) < 5:
+#            num += "0"
+#        elif int(i) >=5:
+#            num +="1"
+#    return num
 
 
 
 
 
 
-for j in range(x):
-    print(len(j))
+
+
+
+

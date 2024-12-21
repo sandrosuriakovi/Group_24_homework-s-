@@ -1,0 +1,12 @@
+.easy{
+    border: 1px;
+    border-radius: 100%;
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 278px){
+    .main{flex-direction: column;}
+}
